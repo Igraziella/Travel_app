@@ -646,12 +646,7 @@ footer li {
   margin-bottom: 12px;
 }
 
-@media (max-width: 390px) {
-  /* body {
-    margin: 10px;
-    padding: 0;
-  } */
-
+@media (min-width: 375px) and (max-width: 390px) and (orientation: portrait) {
   .container {
     display: flex;
     justify-content: space-between;
