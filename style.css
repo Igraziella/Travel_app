@@ -928,8 +928,7 @@ footer li {
 
   .footer-container {
     flex-direction: column;
-    gap: 48px;
+    gap: 24px;
     padding: 20px 52px;
-    color: #34656a;
   }
 }
