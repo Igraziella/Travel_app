@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travelphere</title>
+    <link
+      rel="shortcut icon"
+      href="./images/travel_logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="" href="destination.html" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img
+            src="./images/travel_logo.png"
+            alt="logo image of a travelling bag"
+          />
+          <a href="index.html"><p>Travelphere</p></a>
+        </div>
+
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+
+        <nav class="nav-bar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="booking.html">Bookings</a></li>
+            <li><a href="destination.html">Destinations</a></li>
+          </ul>
+        </nav>
+
+        <div class="nav-btn">
+          <button class="btn-1">Log in</button>
+          <button class="btn-2">Sign up</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero section -->
+
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Get to your destinations with Travelphere</h1>
+        <p>
+          Discover the best deals, seamless bookings, and an unforgettable
+          travel experience.
+        </p>
+
+        <a href="booking.html"
+          ><button class="btn-3">
+            <i class="fa-solid fa-paper-plane"></i>Book Now
+          </button></a
+        >
+        <a href="about.html"><button class="btn-4">Contact us</button></a>
+      </div>
+
+      <div class="hero-img">
+        <img
+          src="./images/hero_image.png"
+          alt="different images of travellers"
+        />
+      </div>
+    </section>
+
+    <!-- Ticket section -->
+
+    <section class="ticket">
+      <div class="flight-tab">
+        <p class="flight"><i class="bi bi-airplane-fill"></i>Flights</p>
+        <p class="dest"><i class="bi bi-suitcase-lg"></i>Destinations</p>
+      </div>
+
+      <!-- Travel details goes here -->
+      <div class="details">
+        <div class="detail-card">
+          <span>From -To</span>
+          <p>
+            New York - Sydney <i class="fa-solid fa-arrow-right-arrow-left"></i>
+          </p>
+        </div>
+        <div class="detail-card">
+          <span>Trip</span>
+          <p>Return <i class="fa-solid fa-chevron-down"></i></p>
+        </div>
+        <div class="detail-card">
+          <span>Travel - Return</span>
+          <p>26 Nov 24 - 24 Dec 24</p>
+        </div>
+        <div class="detail-card">
+          <span>Passenger -Class</span>
+          <p>1 Passenger, Economy</p>
+        </div>
+      </div>
+
+      <div class="cta">
+        <button class="btn-5">
+          <i class="fa-solid fa-plus"></i>Add promo code
+        </button>
+        <button class="btn-6">
+          <i class="fa-solid fa-paper-plane"></i>Book Now
+        </button>
+      </div>
+    </section>
+
+    <section class="plan">
+      <h2>Plan your perfect trip</h2>
+      <p>
+        Search Flights & Places Hire to our most popular destinations<span
+          >See more</span
+        >
+      </p>
+
+      <div class="plans">
+        <div class="resorts">
+          <img
+            src="./images/sydney_resort.png"
+            alt="image of a location in Sydney"
+          />
+          <span>
+            <h5>Sydney, Australia</h5>
+            <ul>
+              <li>Flights</li>
+              <li>Hotels</li>
+              <li>Resorts</li>
+            </ul>
+          </span>
+        </div>
+
+        <div class="resorts">
+          <img src="./images/paris.png" alt="image of a location in Paris" />
+
+          <span>
+            <h5>Paris, France</h5>
+            <ul>
+              <li>Flights</li>
+              <li>Hotels</li>
+              <li>Resorts</li>
+            </ul>
+          </span>
+        </div>
+
+        <div class="resorts">
+          <img
+            src="./images/New_york.png"
+            alt="image of a location in New York"
+          />
+          <span>
+            <h5>New York, US</h5>
+            <ul>
+              <li>Flights</li>
+              <li>Hotels</li>
+              <li>Resorts</li>
+            </ul>
+          </span>
+        </div>
+
+        <div class="resorts">
+          <img src="./images/london.png" alt="image of a location in London" />
+
+          <span>
+            <h5>London, UK</h5>
+            <ul>
+              <li>Flights</li>
+              <li>Hotels</li>
+              <li>Resorts</li>
+            </ul>
+          </span>
+        </div>
+
+        <div class="resorts">
+          <img src="./images/Tokyo.png" alt="image of a location in Tokyo" />
+
+          <span>
+            <h5>Tokyo, Japan</h5>
+            <ul>
+              <li>Flights</li>
+              <li>Hotels</li>
+              <li>Resorts</li>
+            </ul>
+          </span>
+        </div>
+
+        <div class="resorts">
+          <img src="./images/Dubai.png" alt="image of a location in Dubai" />
+
+          <span>
+            <h5>Dubai, UAE</h5>
+            <ul>
+              <li>Flights</li>
+              <li>Hotels</li>
+              <li>Resorts</li>
+            </ul>
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <section class="search-flights">
+      <img src="./images/large_plane.png" alt="Photo of a large Aeroplane" />
+
+      <div class="show-flights">
+        <h2>Flights</h2>
+        <p>Search Flights & Places Hire to our most popular destinations</p>
+        <button>Show Flights</button>
+      </div>
+    </section>
+
+    <!-- Why choose us -->
+    <section class="why-us">
+      <h2>Why choose Travelphere?</h2>
+      <p>
+        We offer a smooth booking process, affordable flight deals, global
+        destinations, 24/7 support, and <br />secure payments. Your travel plans
+        are in safe hands!
+      </p>
+
+      <div class="card-layout">
+        <div class="card">
+          <img src="./images/fi_globe.svg" alt="" />
+          <h4>Diverse Destinations</h4>
+          <p>Richly varied landscapes, luxury accommodation Travel.</p>
+        </div>
+        <div class="card">
+          <img src="./images/Outline.svg" alt="" />
+          <h4>Value for Money</h4>
+          <p>Richly varied landscapes, luxury accommodation Travel.</p>
+        </div>
+        <div class="card">
+          <img src="./images/u_map-marker.svg" alt="" />
+          <h4>Beautiful Places</h4>
+          <p>Richly varied landscapes, luxury accommodation Travel.</p>
+        </div>
+        <div class="card">
+          <img src="./images/calendar-check.svg" alt="" />
+          <h4>Fast Booking</h4>
+          <p>Richly varied landscapes, luxury accommodation Travel.</p>
+        </div>
+        <div class="card">
+          <img src="./images/fi_heart.svg" alt="Heart icon" />
+          <h4>Passionate Travel</h4>
+          <p>Richly varied landscapes, luxury accommodation Travel.</p>
+        </div>
+        <div class="card">
+          <img src="./images/support_icon.svg" alt="Support icon" />
+          <h4>Support Team</h4>
+          <p>Richly varied landscapes, luxury accommodation Travel.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <h2>What travellers are saying?</h2>
+
+      <div class="testimonial-cover">
+        <div class="travellers">
+          <img src="./images/traveller1.png" alt="testimonial image" />
+          <h3>Arielle L.</h3>
+          <p>
+            Really appreciate the help and support from the staff during these
+            tough times. Sh..
+          </p>
+          <img src="./images/5star.png" alt="" /><span>View more</span>
+        </div>
+
+        <div class="travellers">
+          <img src="./images/traveller2.png" alt="testimonial image" />
+          <h3>Nathan G.</h3>
+          <p>
+            “A real sense of community, nurtured”Really appreciate the help and
+            su..
+          </p>
+          <img src="./images/5star.png" alt="" /><span>View more</span>
+        </div>
+
+        <div class="travellers">
+          <img src="./images/traveller3.png" alt="testimonial image" />
+          <h3>Sceptre N.</h3>
+          <p>The facilities are superb. Clean, slick, bright.</p>
+
+          <img src="./images/5star.png" alt="" /><span>View more</span>
+        </div>
+
+        <div class="travellers">
+          <img src="./images/traveller4.png" alt="testimonial image" />
+          <h3>Janie R.</h3>
+          <p>
+            "Customer support was amazing—resolved my issue quickly and
+            professionally."
+          </p>
+          <img src="./images/5star.png" alt="" /><span>View more</span>
+        </div>
+      </div>
+
+      <div class="progress-bar">
+        <img src="./images/Group 50.svg" alt="" />
+      </div>
+    </section>
+
+    <!-- Discover your destinations -->
+
+    <section class="discover">
+      <div class="your-destinations">
+        <h2>Discover your destinations</h2>
+        <p>
+          Book affordable flights to top destinations effortlessly, with a
+          simple, secure, and reliable booking process. <br />
+          For your travel booking experience, here are popular destinations like
+          London, Dubai, and Tokyo and others you can visit.
+        </p>
+        <button>Discover</button>
+      </div>
+
+      <div class="locations">
+        <div class="location-cards">
+          <p class="place">London</p>
+          <img src="./images/london_tower.png" alt="" />
+          <p class="explore">
+            Explore the rich history and vibrant culture of London...
+          </p>
+        </div>
+        <div class="location-cards">
+          <p class="place">Tokyo</p>
+          <img src="./images/tokyo_tower.png" alt="" />
+          <p class="explore">
+            Discover the perfect blend of tradition and technology in Tokyo...
+          </p>
+        </div>
+        <div class="location-cards">
+          <p class="place">Dubai</p>
+          <img src="./images/dubai_tower.png" alt="" />
+          <p class="explore">
+            Experience the luxury and modern wonders of Dubai...
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="coming-soon">
+      <img src="./images/travel_app.png" alt="" />
+      <div class="travel-app">
+        <h2>
+          Try our Travelphere app <br />
+          Coming soon ...
+        </h2>
+        <p>
+          All your travel plans, in one place.You handle the booking.Access
+          reservations, maps, and more on your favorite device!View trending
+          destinations. Discover popular trips. Listen to your heart. Experience
+          the world.Find or create your perfect trip. Meet fellow travellers.
+          Experience different cultures.
+        </p>
+        <img src="./images/download.svg" alt="" width="400" height="52" />
+      </div>
+    </section>
+
+    <aside>
+      <h3>Subscribe to our newsletter</h3>
+
+      <form action="">
+        <label for="">
+          <input type="text" placeholder="Enter your Email" />
+        </label>
+        <button>Subscribe</button>
+      </form>
+    </aside>
+
+    <footer>
+      <div class="footer-container">
+        <div class="social-section">
+          <div class="logo">
+            <img
+              src="./images/travel_logo.png"
+              alt="logo image of a travelling bag"
+            />
+            <a href="index.html"><p>Travelphere</p></a>
+          </div>
+          <p>
+            Access affordable flights to destinations <br />
+            worldwide, saving you time and money.
+          </p>
+          <div class="social-icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+
+        <div>
+          <h5>Our Destinations</h5>
+          <ul>
+            <li>London</li>
+            <li>Alaska</li>
+            <li>France</li>
+            <li>Tokyo</li>
+            <li>Australia</li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>Travel Blogs</h5>
+          <ul>
+            <li>Bali Travel Guide</li>
+            <li>Sri Lanks Travel Guide</li>
+            <li>Peru Travel Guide</li>
+            <li>Bali Travel Guide</li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>About Us</h5>
+          <ul>
+            <li>Our Story</li>
+            <li>Work with us</li>
+            <li>Privacy policy</li>
+            <li>Terms of use</li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>Contact us</h5>
+          <ul>
+            <li>Our Story</li>
+            <li>Work with us</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
