@@ -91,7 +91,6 @@ body {
 .nav-btn .btn-1 {
   border: 1px solid #e95a26;
   background-color: #ffffff;
-  color: #e95a26;
 }
 
 .nav-btn .btn-1:hover {
@@ -100,9 +99,335 @@ body {
   border: none;
 }
 
+.btn-1 a {
+  text-decoration: none;
+  color: #e95a26;
+}
+
+.btn-2 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .nav-btn .btn-2:hover {
   background-color: #f3a97e;
   border: none;
+}
+
+/* Sign in starts here */
+
+.signin-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%; /* Adjust the width as needed */
+  height: 100%;
+  background-image: url("travel\ image\ sign\ in.png");
+  background-size: cover;
+  filter: blur(0px);
+}
+
+.login-form {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  text-align: center;
+}
+
+.logo-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: #397b81;
+}
+
+.logo-heading img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.logo-heading img {
+  width: 15px;
+  margin-right: 5px;
+}
+
+.login-form h2 {
+  color: #397b81; /* Adjust the color as needed */
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 5px; /* Adjust the margin as needed */
+}
+
+form {
+  text-align: left;
+  color: #397b81;
+  font-weight: 600;
+}
+
+.login-form p {
+  margin-bottom: 15px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  background-color: #f1fafa;
+  border-radius: 5px;
+}
+
+.forgot-password {
+  float: right;
+  font-size: 12px; /* Adjust font size as needed */
+  color: #b35050;
+  margin-bottom: 10px;
+}
+
+.login-form button {
+  width: 105%;
+  padding: 10px;
+  background-color: #e95a26;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.or-separator {
+  text-align: center;
+  margin: 10px 0;
+  color: #888; /* Adjust the color as needed */
+  font-size: 14px;
+}
+.or-separator {
+  text-align: center;
+  margin: 10px 0;
+  color: #7e7d7d;
+  font-size: 14px;
+  position: relative;
+}
+
+.or-separator::before,
+.or-separator::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 90px; /* Adjust the width as needed */
+  height: 1px;
+  background-color: #bdbcbc;
+  transform: translateY(-50%);
+}
+
+.or-separator::before {
+  left: 0;
+}
+
+.or-separator::after {
+  right: 0;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.social-media a {
+  display: inline-block;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.social-media img {
+  width: 30px;
+  height: 20px;
+  white-space: 10px;
+}
+
+.social-media a {
+  color: #e95a26; /* Adjust the color as needed */
+  text-decoration: none;
+}
+
+/* Sign up starts here */
+
+.bg-image {
+  background-repeat: no-repeat;
+  width: 60%;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.new-form {
+  margin-top: 83px;
+  margin-left: -172px;
+  border: 1px solid white;
+  border-radius: 16px;
+  background-color: white;
+  padding: 28px;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+#logo {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.travel-logo {
+  width: 13px;
+  height: 26.91px;
+}
+
+.right-bg h1,
+h2 {
+  text-align: center;
+  color: #397b81;
+}
+
+.right-bg h1 {
+  margin-top: 10px;
+  font-size: 16px;
+  height: 31px;
+  width: 100px;
+}
+
+#signup-form {
+  width: 90%;
+  margin: 0px 20px;
+}
+
+.signup-info {
+  font-weight: 700;
+  color: #34656a;
+}
+
+#names {
+  display: flex;
+  gap: 1px;
+}
+input {
+  width: 100%;
+  padding: 10px 10px;
+  margin-top: 9px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: #f1fafa;
+  color: #0000004d;
+  font-family: "karma", sans-serif;
+}
+input[type="checkbox"] {
+  width: 10px;
+}
+
+#password {
+  width: 100%;
+}
+
+#email {
+  width: 100%;
+}
+
+#submit {
+  width: 100%;
+  color: #f1fafa;
+}
+
+#terms {
+  width: 17.6px;
+  line-height: 15.64px;
+  color: #34656a;
+  border: none;
+}
+
+.checkbox-l {
+  margin-left: 20px;
+  font-size: 12px;
+  color: #34656a;
+  line-height: 15.64px;
+}
+
+.base {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #397b81;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.45px;
+}
+
+.signup-info {
+  padding: 20px 20px;
+}
+
+#submit {
+  background-color: orangered;
+}
+
+#submit:hover {
+  background-color: #f3a97e;
+}
+
+.login-link {
+  text-decoration: none;
+  color: orangered;
+}
+
+.login-link:hover {
+  background-color: #f3a97e;
+}
+
+.line-container {
+  text-align: center;
+  position: relative;
+}
+
+.line-text {
+  position: relative;
+  z-index: 1; /* Ensures the text is above the lines */
+  margin-right: 50px;
+  /* margin-left: 25px; */
+}
+
+.line-container::before,
+.line-container::after {
+  content: "";
+  display: inline-block;
+  width: 40%; /* Adjust the width as needed */
+  border-top: 1px solid; /* Adjust border style and color as needed */
+  position: absolute;
+  top: 50%;
+}
+
+.line-container::before {
+  left: 0;
+}
+
+.footer-logo {
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: row;
 }
 
 /* Hero section */
@@ -462,7 +787,7 @@ span li {
 .travellers span {
   font-size: 12px;
   font-weight: 500;
-  margin-left: 20px;
+  margin-left: 16px;
 }
 
 .progress-bar {
