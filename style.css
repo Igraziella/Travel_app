@@ -308,7 +308,7 @@ form {
 
 .travel-logo {
   width: 13px;
-  height: 26.91px;
+  height: 24;
 }
 
 .right-bg h1,
@@ -339,7 +339,7 @@ form {
   gap: 1px;
 }
 
-input {
+.signup-info input {
   width: 100%;
   padding: 10px 10px;
   margin-top: 9px;
