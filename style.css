@@ -321,7 +321,7 @@ p span {
   box-sizing: border-box;
   box-shadow: 0px 0px 1px 0px;
   border-radius: 16px;
-  width: 334px;
+  width: 330px;
   background-color: #ffffff;
   padding: 16px;
   /* justify-content: space-between; */
@@ -580,10 +580,6 @@ aside {
   margin-right: 96px;
 }
 
-/* aside form {
-  height: 48px;
-} */
-
 aside h3 {
   font-size: 24px;
 }
@@ -612,6 +608,360 @@ aside button {
 aside button:hover {
   background-color: #f3a97e;
 }
+
+/* About us starts here */
+
+.about-hero h1 {
+  color: #397b81; /* Change the color to your desired color */
+  font-weight: bolder;
+  font-size: 32px;
+  margin-top: 96px;
+}
+
+.about-hero h3 {
+  color: #397b81; /* Change the color to your desired color */
+}
+
+.about-hero {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between content and image */
+  align-items: center; /* Vertically center content and image */
+  padding: 40px;
+}
+
+.hero-content p {
+  color: #397b81;
+}
+.hero-second {
+  color: #397b81;
+}
+
+.hero-content {
+  flex: 1; /* Make the content take up available space */
+  margin-right: 40px;
+}
+
+.about-hero-image {
+  flex: 1; /* Make the image take up available space */
+}
+
+.about-hero-image img {
+  width: 100%; /* Make the image responsive */
+  height: auto;
+}
+
+.story-header {
+  color: #397b81;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.about-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+.about-image {
+  flex: 1;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+}
+
+.about-content {
+  flex: 1;
+  text-align: left; /* Align text to the left */
+  margin-left: 40px;
+}
+
+.why-travel {
+  text-align: justify;
+  padding: 40px;
+}
+
+.why-travel h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #397b81;
+}
+
+.why-travel p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #397b81;
+}
+
+.why-travel a {
+  color: #7a0606;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.faq {
+  padding: 40px;
+}
+
+.faq h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.faq-section {
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+.faq-section h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.faq-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.faq-section li {
+  margin-bottom: 10px;
+}
+
+.faq-content {
+  display: none; /* Initially hide the content */
+}
+
+.faq-section.active .faq-content {
+  display: block; /* Show the content when the section is active */
+}
+
+.faq-header {
+  cursor: pointer; /* Make the header clickable */
+}
+
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 100px;
+}
+
+.contact-form,
+.social-media {
+  width: 45%;
+}
+
+.contact-form {
+  background-color: #fff; /* Adjust the background color as needed */
+  padding: 80px;
+  border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+  text-align: justify;
+  color: #397b81;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+  background-color: #f1fafa;
+}
+
+.contact-form button {
+  background-color: #e95a26;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 160px;
+  cursor: pointer;
+}
+
+.contact-form,
+.social-media-container {
+  width: 60%;
+}
+
+.contact-form h2,
+.social-media h2 {
+  margin-bottom: 20px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.contact-form,
+.social-media-container {
+  width: 45%;
+}
+
+.social-media-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.social-media {
+  text-align: justify;
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 45px;
+  padding-left: 20px;
+  margin: 40px;
+  margin-left: 60px;
+}
+
+.social-heading {
+  display: flex;
+  color: #397b81;
+}
+.social-media ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-media li {
+  margin-bottom: 10px;
+}
+
+.social-media a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.social-media a i {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.social-media a img {
+  width: 100px; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height as needed */
+}
+
+.newsletter {
+  text-align: center;
+  margin-left: 40px;
+}
+
+.newsletter form {
+  display: flex;
+}
+
+.newsletter-head {
+  color: #397b81;
+  font-weight: bold;
+}
+.newsletter input[type="email"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.newsletter button {
+  background-color: #e95a26;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Destination page starts here */
+.review {
+  display: flex;
+}
+
+.book-now {
+  display: block;
+  text-align: right;
+}
+
+.eco-container img {
+  display: block;
+  justify-items: center;
+}
+
+.emy {
+  background-color: white;
+  margin: 30px 0px 0px 100px;
+}
+
+.contain h4 {
+  margin: 20px 0px 0px 100px;
+}
+
+.emy1 {
+  font-size: 20px;
+  margin-right: 82px;
+  border: white;
+}
+.Payment {
+  background-color: orangered;
+  height: 40px;
+  width: 90%;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  margin: 20px 0px 0px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0px auto;
+  margin-top: 45px;
+}
+.eco-container {
+  width: 100%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.eco-container img {
+  width: 90%;
+  margin: 0px auto;
+}
+
+.book {
+  background-color: orangered;
+  height: 40px;
+  width: 90px;
+  color: white;
+  border-radius: 10px;
+}
+.book:hover {
+}
+.dollar {
+  color: red;
+  font-size: 30px;
+}
+.dollar1 {
+  color: black;
+  height: 40px;
+  width: 40px;
+  border: 2px solid red;
+}
+
+/* Destination page ends here */
 
 footer {
   margin-top: 96px;
