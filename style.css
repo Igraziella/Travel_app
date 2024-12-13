@@ -1303,6 +1303,10 @@ aside button:hover {
   display: flex;
 }
 
+.plane-type {
+  margin: 96px;
+}
+
 .book-now {
   display: block;
   text-align: right;
@@ -1330,7 +1334,8 @@ aside button:hover {
 
 .Payment {
   background-color: orangered;
-  height: 40px;
+  border: none;
+  height: 48px;
   width: 90%;
   color: white;
   font-size: 20px;
@@ -1343,6 +1348,7 @@ aside button:hover {
   margin: 0px auto;
   margin-top: 45px;
 }
+
 .eco-container {
   width: 100%;
   display: block;
