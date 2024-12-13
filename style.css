@@ -13,13 +13,12 @@ body {
 }
 
 /* navigation bar */
-
 .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  margin: 0px 20px;
+  /* margin: 0px 20px; */
   position: fixed;
   z-index: 10;
   background-color: #ffffff;
@@ -31,6 +30,7 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
+  margin-left: 16px;
 }
 
 .logo p {
@@ -76,7 +76,7 @@ body {
 }
 
 .nav-btn button {
-  margin-right: 16px;
+  margin-right: 20px;
   padding: 10px;
   width: 118px;
   height: 43px;
@@ -278,6 +278,7 @@ form {
   text-decoration: none;
   color: #e95a26;
 }
+
 /* Sign up starts here */
 
 .bg-image {
@@ -628,6 +629,13 @@ input[type="checkbox"] {
   background-color: #f3a97e;
 }
 
+.btn-6 a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
 /* Plan your perfect trip */
 
 .plan {
@@ -706,9 +714,27 @@ span li {
   width: 100%;
 }
 
+.search-flights {
+  background: linear-gradient(
+      15deg,
+      rgba(57, 123, 129, 0.7) 95%,
+      rgba(66, 107, 112, 0.7) 71%
+    ),
+    url("images/large_plane.png") no-repeat center center/cover;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 30px;
+  width: 90%;
+  height: 400px;
+  padding: 30px;
+  color: #ffffff;
+  z-index: 1;
+  margin: 0px 80px 0px 80px;
+}
+
 .show-flights {
   text-align: center;
-  margin-top: -15%;
+  margin-top: 160px;
   color: #ffffff;
 }
 
@@ -733,6 +759,7 @@ span li {
 }
 
 /* Why choose us */
+
 .why-us {
   margin: 60px 96px;
   text-align: center;
@@ -819,7 +846,7 @@ span li {
 .discover {
   display: flex;
   align-items: center;
-  margin: 0px 96px;
+  margin: 124px 96px;
   gap: 32px;
 }
 
@@ -893,12 +920,30 @@ span li {
   padding: 32px;
 }
 
+.coming-soon {
+  background: linear-gradient(
+      90deg,
+      rgba(24, 139, 203, 0.8) 40%,
+      rgba(161, 148, 135, 0.7) 60%
+    ),
+    url("images/travel_app.png") no-repeat center center/cover;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 30px;
+  width: 90%;
+  height: 512px;
+  padding: 30px;
+  color: #ffffff;
+  /* z-index: 1; */
+  margin: 0px 80px 0px 80px;
+}
+
 .travel-app {
-  margin: 0px 96px;
+  margin: 0px 45px;
   display: flex;
   flex-direction: column;
-  margin-top: -40%;
-  padding: 32px 0px 0px 20px;
+  margin-top: 5%;
+  /* padding: 32px 0px 0px 20px; */
   color: #ffffff;
 }
 
@@ -914,9 +959,10 @@ span li {
 
 .download img {
   float: left;
+  align-self: left;
 }
 
-aside {
+/* aside {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -925,7 +971,7 @@ aside {
 
 aside h3 {
   font-size: 24px;
-}
+} */
 
 input {
   width: 344px;
@@ -1169,19 +1215,24 @@ aside button:hover {
 }
 
 .social-media {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
   text-align: justify;
-  margin-bottom: 20px;
-  background-color: #fff;
-  padding: 45px;
-  padding-left: 20px;
-  margin: 40px;
-  margin-left: 60px;
+  margin-bottom: 44px;
+  background-color: #ffffff;
+  padding: 10px;
+  /* padding-left: 20px; */
+  margin-left: 10px;
+  width: 326px;
+  height: 338px;
 }
 
 .social-heading {
-  display: flex;
   color: #397b81;
+  /* text-align: center; */
 }
+
 .social-media ul {
   list-style: none;
   padding: 0;
@@ -1190,6 +1241,7 @@ aside button:hover {
 
 .social-media li {
   margin-bottom: 10px;
+  display: flex;
 }
 
 .social-media {
@@ -1206,17 +1258,23 @@ aside button:hover {
 }
 
 .newsletter {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  text-align: left;
   margin-left: 40px;
 }
 
 .newsletter form {
   display: flex;
+  justify-content: end;
+  align-items: last baseline;
+  width: 400px;
 }
 
 .newsletter-head {
   color: #397b81;
-  text-align: right;
+  /* text-align: left; */
   font-weight: bold;
 }
 
@@ -1233,13 +1291,14 @@ aside button:hover {
   border: none;
   padding: 10px 20px;
   cursor: pointer;
-  border-radius: 0px 16px 16px 0px;
+  border-radius: 0px 48px 48px 0px;
   height: 48px;
   width: 120px;
   margin-top: 14px;
 }
 
 /* Destination page starts here */
+
 .review {
   display: flex;
 }
@@ -1268,6 +1327,7 @@ aside button:hover {
   margin-right: 82px;
   border: white;
 }
+
 .Payment {
   background-color: orangered;
   height: 40px;
@@ -1290,6 +1350,7 @@ aside button:hover {
   align-items: center;
   text-align: center;
 }
+
 .eco-container img {
   width: 90%;
   margin: 0px auto;
@@ -1302,12 +1363,14 @@ aside button:hover {
   color: white;
   border-radius: 10px;
 }
-.book:hover {
-}
+
+/* .book:hover { */
+
 .dollar {
   color: red;
   font-size: 30px;
 }
+
 .dollar1 {
   color: black;
   height: 40px;
@@ -1344,8 +1407,9 @@ footer {
 }
 
 footer h5 {
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 16px;
+  font-weight: 600;
 }
 
 footer li {
