@@ -1579,7 +1579,7 @@ footer li {
 
   .show-flights {
     text-align: center;
-    margin-top: -50%;
+    margin-top: 50%;
   }
 
   .show-flights h2 {
@@ -1679,10 +1679,10 @@ footer li {
   }
 
   .travel-app {
-    margin: 0px 32px;
+    margin-left: 10px;
     display: flex;
     flex-direction: column;
-    margin-top: -80%;
+    margin-top: 5%;
     padding: 0;
     color: #ffffff;
   }
@@ -1693,6 +1693,7 @@ footer li {
 
   .travel-app p {
     width: 298px;
+    line-height: 1.8em;
     /* margin: 20px 0px; */
   }
 
